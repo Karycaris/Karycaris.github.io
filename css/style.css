@@ -22,6 +22,18 @@ body {
     display: flex;
 }
 
+@media (min-width: 1000px) {
+  .font-description{
+    font-size: xx-large;
+  }
+}
+
+@media (max-width: 1000px) {
+  .font-description{
+    font-size: larger;
+  }
+}
+
 /* display 3 */
 @media (min-width: 768px) {
     
